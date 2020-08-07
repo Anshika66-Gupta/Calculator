@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("cal.jpg");
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 3.6rem;
+}
+
+.container {
+    width: 330px;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-flow: column;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.container > * {
+    margin: 5px;
+    border-radius: 4px;
+}
+
+#screen {
+    width: auto;
+    background-color: gold;
+    text-align: right;
+    padding: 12px;
+    font-size: 32px;
+    height: 25px;
+}
+
+button {
+    background-color: teal;
+    padding: 12px;
+    margin: 5px;
+    border-radius:50%;
+    font-size: 32px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: darksalmon;
+    cursor: pointer;
+    color: white;
+}
+
+button:focus{
+    outline:none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row > * {
+    flex-grow: 1;
+}
